@@ -4,7 +4,7 @@ return {
 		require("conform").setup({
 			format_on_save = {
 				-- Estas opciones serán pasadas a conform.format()
-				timeout_ms = 500,
+				timeout_ms = 1000,
 				lsp_format = "fallback",
 			},
 			formatters_by_ft = {
