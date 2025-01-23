@@ -9,3 +9,8 @@ vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Move to right window" })
 vim.keymap.set("n", "<C-s>", ":w<CR>", { desc = "Save file" })
 vim.keymap.set('n', '<leader>sh', ':split<CR>', { desc = 'Split horizontal' })
 vim.keymap.set('n', '<leader>sv', ':vsplit<CR>', { desc = 'Split vertical' })
+
+vim.api.nvim_set_keymap('n', '<Up>', '<Nop>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<Down>', '<Nop>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<Left>', '<Nop>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<Right>', '<Nop>', { noremap = true })
